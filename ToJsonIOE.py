@@ -1,8 +1,7 @@
 import InformationOfEncryption;
-import IsaveInformationOfEncryption;
+import ISaveInformationOfEncryption;
 import sys;
-import abc;
 
-class ToJsonIOE(IsaveInformationOfEncryption.IsaveInformationOfEncryption):
-      def save(self, ioe :InformationOfEncryption):
+class ToJsonIOE(ISaveInformationOfEncryption.ISaveInformationOfEncryption):
+      def save(self, IOE:InformationOfEncryption):
         pass
